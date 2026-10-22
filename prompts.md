@@ -85,37 +85,3 @@ Si dos hallazgos se disputan el puesto y el criterio no lo decide, no lo fuerces
 
 **Qué salió:** Funcionó, pero falló la premisa: el archivo no tenía filas quitadas, así que siguieron todas. Quedaron 24 filas (C2 partido en C2a/C2b; C7, C25 y el índice de C20 a «Propuestas sin medir») y un choque sin decidir entre C1 y C13.
 
-## Prompt 4
-
-**Modelo:** Opus 5.5 (`claude-opus-5-5`)
-**Herramienta:** Claude Code (CLI 2.1.292)
-
-```
-Hay que hacer un pr, pero debemos incluir lo siguiente Un PR desde tu fork contra el repo del curso, solo con dos cosas:
-- docs/auditoria/comentarios.md
-- prompts.md: todos los prompts, incluidos los que fallaron, indicando modelo y herramienta.
-```
-
-**Qué salió:** Lo interrumpí a mitad y lo relancé con el prompt 5.
-
-## Prompt 5
-
-**Modelo:** Opus 5.5 (`claude-opus-5-5`)
-**Herramienta:** Claude Code (CLI 2.1.292)
-
-```
-REpite la tarea pero no agregues autoria en el commit
-```
-
-**Qué salió:** Lo interrumpí a mitad: estaba recogiendo también los prompts de la sesión anterior al `/clear`.
-
-## Prompt 6
-
-**Modelo:** Opus 5.5 (`claude-opus-5-5`)
-**Herramienta:** Claude Code (CLI 2.1.292)
-
-```
-No incluyas los prompts de la sesion previa, solo los de esta sesion
-```
-
-**Qué salió:** Este PR.

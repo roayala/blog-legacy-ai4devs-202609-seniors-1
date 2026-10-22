@@ -39,6 +39,12 @@ Rutas abreviadas: `routes.ts` = `backend/start/routes.ts` · `migración` = `bac
 
 ## Parte B
 
--
--
--
+1. **Hallazgos devueltos por el agente:** 25  **Comprobados abriendo el archivo:** 9 
+2. **No supe decidir la prioridad de** tuve dudas en que era lo que pretendia lograr este código, las instrucciones siguen siendo muy ambiguas con poca claridadlo que dificulta entender que es lo que se pide. Para mi la prioridad fue entregar los prompts que lograran lo que se entendió **porque** C1 contra C13: uno expone el correo de quien comenta y el otro deja borrar comentarios usando justo ese correo. Si tú tampoco supiste ordenarlos, es la respuesta que piden. 
+3. **El agente afirmó y no pude verificar:** C El agente no afirmó nada, entendió lo que debía entender, más bien yo, Raúl, no enentdí muy bien que era lo que se quería lograr con el objetivo de este ejercicio, espero realmente que el día de la clase se pueda revisar a detalle que esra lo que se esperaba
+
+   - C14: qué clave de moderación corre en producción.
+   - C2a: si "ok" significa aprobado.
+   - C10: lo de las peticiones concurrentes.
+   - C12: lo de moderar desde un "panel viejo".
+   - C16: qué pide el contrato.
